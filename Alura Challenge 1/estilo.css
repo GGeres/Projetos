@@ -40,6 +40,11 @@ header>section{
     top: 50%;
     transform: translate(-50%,-50%)
 }
+
+.flex_container{
+    justify-content: space-evenly;
+}
+
 img{
     vertical-align: middle;
 }
