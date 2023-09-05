@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+TDB:
+
+Até 768px
+P/ Cel e pequenas telas
+
+De 769px a 1200px
+P/ tablets e Desktops
+
+Acima de 1201px
+Para telas grandes
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #062540;
+    color: white;
+    height: 100px;
+}
+
+section>img#Logo{
+
+     width: 150px;
+}
+
+section#Perfil{
+    position: absolute;
+    top: 0%;
+    right: 70%;
+
+}
+
+section>span>img#perfil_user{
+    background-position: right top;
+    width: 60px;
+    border-style: solid;
+    border-radius: 50%;
+    
+}
