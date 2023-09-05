@@ -22,17 +22,27 @@ header{
     background-color: #062540;
     color: white;
     height: 100px;
+   
+}
+
+header>section{
+  
+   
 }
 
 section>img#Logo{
 
      width: 150px;
 }
+section>input{
+    width: 50%;
+}
 
 section#Perfil{
     position: absolute;
     top: 0%;
-    right: 70%;
+    right: 30%;
+    overflow: hidden;
 
 }
 
